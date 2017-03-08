@@ -1,4 +1,36 @@
 body {
-background-color: #555;
-color: #fff;
-}
+  color: #fff;
+  text-shadow: 1px 1px 2px #777;
+  background: linear-gradient(242deg, #3062a7, #5d6d7d, #70ace6);
+  background-size: 600% 600%;
+
+  -webkit-animation: AnimationName 16s ease infinite;
+  -moz-animation: AnimationName 16s ease infinite;
+  animation: AnimationName 16s ease infinite;
+
+  @-webkit-keyframes AnimationName {
+      0%{background-position:0% 77%}
+      50%{background-position:100% 24%}
+      100%{background-position:0% 77%}
+  }
+  @-moz-keyframes AnimationName {
+      0%{background-position:0% 77%}
+      50%{background-position:100% 24%}
+      100%{background-position:0% 77%}
+  }
+  @keyframes AnimationName {
+      0%{background-position:0% 77%}
+      50%{background-position:100% 24%}
+      100%{background-position:0% 77%}
+  }
+  }
+
+  h1{
+    margin: 0;
+    font-size: 4em;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-60%, -40%);
+  }
