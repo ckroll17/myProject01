@@ -1,16 +1,10 @@
-#README file for Noel
+#A Bit About Me
 
-This is our initial project using git and github.
+This is just a basic write up with some information about myself.
 
-I have built a quick hello world html file for this project.
-
-I have updated the html file to include a stylesheet.
-I've also updated the css file to have additional styles.
-
-## Today in class
-A brief overview of class today is as follows:
-* reviewed markup
-* fought with git
-* built a repository in github
-* _lost_ Alfonso
-* _found_ Alfonso
+Within the file I have built a simple site using
+* HTML
+* CSS
+* Bootstrap
+* images
+* favicon
